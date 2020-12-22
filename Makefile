@@ -1,15 +1,14 @@
 setup:
-    python3 -m venv ~/.udacity-project2
+	python3 -m venv ~/.udacity-project2
 
 install:
-    pip install --upgrade pip &&\
-        pip install -r requirements.txt
+	pip3 install --upgrade pip &&\
+	pip3 install -r requirements.txt
 
 test:
-    python -m pytest -vv test_hello.py
-
+	python3 -m pytest -vv test_hello.py
 
 lint:
-    pylint --disable=R,C hello.py
+	pylint --disable=R,C hello.py
 
 all: install lint test
