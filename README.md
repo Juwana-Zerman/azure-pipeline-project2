@@ -1,6 +1,6 @@
-# Azure-Pipeline-Project2
+![Python application](https://github.com/JZerman2018/azure-pipeline-project2/workflows/Python%20application/badge.svg)
 
-![Python application](https://github.com/JZerman2018/azure-pipeline-project2/workflows/Python+application/badge.svg)
+# Azure-Pipeline-Project2
 
 By Juwana Zerman
 
