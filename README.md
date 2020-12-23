@@ -1,9 +1,19 @@
-![Python application](https://github.com/JZerman2018/azure-pipeline-project2/workflows/Python%20application/badge.svg)
-
 # Azure-Pipeline-Project2
+
+![Python application](https://github.com/JZerman2018/azure-pipeline-project2/workflows/Python+application/badge.svg)
 
 By Juwana Zerman
 
-# Introduction
+# Overview
 
 This is project 2 for the Devops Engineer for Microsoft Azure nanodegree with Udacity. 
+
+
+## Project Plan
+* Spreadsheet for project plan: https://docs.google.com/spreadsheets/d/1APaypWUzPNIkTpFBGg6qxQ9pGLnnyaJ9OCW3kIPEHqU/edit?usp=sharing
+* Trello board for the project: https://trello.com/b/hfbGHfqN/project-2-ci-cd
+
+## Architectural Diagram
+
+![Azure Devops Pipeline.png](Azure Devops Pipeline.png)
+
