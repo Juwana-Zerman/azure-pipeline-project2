@@ -20,17 +20,17 @@ This is project 2 for the Devops Engineer for Microsoft Azure nanodegree with Ud
 ## Instructions
 
 - In Azure Cloud Shell, clone the repo using the command:
-`git clone git@github.com:JZerman2018/azure-pipeline-project2.git`
+  `git clone git@github.com:JZerman2018/azure-pipeline-project2.git`
 
 - Generate an ssh-key in Azure Cloud Shell and add it to GitHub:
-`ssh-keygen -m PEM -t rsa -b 4096`
-Once that's created the output will have the file where the ssh key is saved usually similar to `/home/azureuser/.ssh/id_rsa.pub`. You may cat this file and get the full ssh key and navigate to settings in GitHub, SSH and GPG keys, and save this. This will authenticate your Cloud Shell with GitHub.
+  `ssh-keygen -m PEM -t rsa -b 4096`
+- Once that's created the output will have the file where the ssh key is saved usually similar to `/home/azureuser/.ssh/id_rsa.pub`. You may cat this file and get the full ssh     key and navigate to settings in GitHub, SSH and GPG keys, and save this in a new SSH Key. This will authenticate your Cloud Shell with GitHub.
 
 - Change into the cloned directory:
-`cd azure-pipeline-project2`
+  `cd azure-pipeline-project2`
 
 - Create a virtual environment:
-`make setup`
+  `make setup`
 
 - Next run `make all` to install of the dependencies in the virtual environment. This command will also run the test cases that are present.
 
