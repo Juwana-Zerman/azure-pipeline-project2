@@ -64,10 +64,18 @@ This screenshot shows a successful prediction made from the deployed Flask app i
 
 ![Prediction](screenshots/make_predict_azure_app.png)
 
-- Optionally, you may view the log files for the deployed application using the command:
+- Optionally, you may view the streamed log files for the deployed application using the command:
 `az webapp log tail`
 
 ![LogOutput](screenshots/webapplogtail.png)
+
+## Enhancements
+
+In the future these skills can be practiced using Azure Repos and trying another CI/CD service such as [Jenkins](https://www.jenkins.io/) or [CircleCI](https://circleci.com/).
+
+## Demo
+
+Video Link to Demo this project --> 
 
 
 
