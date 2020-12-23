@@ -15,5 +15,4 @@ This is project 2 for the Devops Engineer for Microsoft Azure nanodegree with Ud
 
 ## Architectural Diagram
 
-![img-1](screenshots/Azure Devops Pipeline.png)
-
+![Azure-Workflow](screenshots/Azure+Devops+Pipeline.png)
