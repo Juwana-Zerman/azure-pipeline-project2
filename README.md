@@ -1,4 +1,4 @@
-![Python application](https://github.com/JZerman2018/azure-pipeline-project2/workflows/Python%20application/badge.svg)
+![Python application](https://github.com/JZerman2018/azure-pipeline-project2/workflows/Python+application/badge.svg)
 
 # Azure-Pipeline-Project2
 
@@ -15,7 +15,7 @@ This is project 2 for the Devops Engineer for Microsoft Azure nanodegree program
 
 ## Architectural Diagram
 
-![Azure-Workflow](screenshots/Azure%20Devops%20Pipeline.png)
+![Azure-Workflow](screenshots/Azure+Devops+Pipeline.png)
 
 ## Instructions
 
@@ -58,6 +58,9 @@ This is project 2 for the Devops Engineer for Microsoft Azure nanodegree program
 - Create and deploy the flask app to Azure App Service using  the `az webapp up -n pythonwebapp-service` command. When the Webapp is running the flask app can be seen in the browser at https://pythonwebapp-service.azurewebsites.net/.
 
 ![Webapp-Browser](screenshots/webapp-browser.png)
+
+- Screenshot of the pythonwebapp in Azure App Service:
+![PythonWebapp](screenshots/pythonwebapp.png)
 
 - After deployment, running the script `./make_predict_azure_app.sh` will make a prediction. ** Note: You may need to make this file executable by running the command `chmod +x make_predict_azure_app.sh.` ** 
 This screenshot shows a successful prediction made from the deployed Flask app in Azure Cloud Shell.
