@@ -9,5 +9,4 @@ az webapp up -n pythonwebapp-service \
 chmod +x make_predict_azure_app.sh \
 az webapp log tail \
 pip3 install locust \
-python app.py \
 locust
