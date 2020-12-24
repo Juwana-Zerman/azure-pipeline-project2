@@ -1,4 +1,7 @@
 ![Python application](https://github.com/JZerman2018/azure-pipeline-project2/workflows/Python%20application/badge.svg)
+![Build Status](https://dev.azure.com/juwanazerman/Flask-Python-Webapp/_apis/build/status/JZerman2018.azure-pipeline-project2?branchName=main)
+
+
 
 # Azure-Pipeline-Project2
 
