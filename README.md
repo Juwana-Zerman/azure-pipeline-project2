@@ -1,4 +1,4 @@
-![Python application](https://github.com/JZerman2018/azure-pipeline-project2/workflows/Python+application/badge.svg)
+![Python application](https://github.com/JZerman2018/azure-pipeline-project2/workflows/Python%20application/badge.svg)
 
 # Azure-Pipeline-Project2
 
@@ -74,19 +74,25 @@ This screenshot shows a successful prediction made from the deployed Flask app i
 
 ## Load Test
 
-The application can be load tested using [Locust](https://locust.io/). This will need to be done locally instead of in Azure cloud shell. 
+The application can be load tested using [Locust](https://locust.io/). This will need to be done locally instead of in Azure Cloud Shell. A required `locustfile.py` has already been created using the documentation samples from [Locust](https://locust.io/).
 
-- Clone this repo to your local machine using: `git clone git@github.com:JZerman2018/azure-pipeline-project2.git`
+- Clone this repo to your local machine using: `git clone git@github.com:JZerman2018/azure-pipeline-project2.git` and install all the dependencies
+
 - Install locust
   `pip3 install locust`
   
 - Start the app:
-  `python3 app.py`
+  `python app.py`
   
 - Start locust:
   `locust`
   
-- Next, open your browser to http://localhost:8089 and enter the number of users to simulate, spawn rate, host should be set to localhost:5000, and then click Start Swarming.
+- Next, open your browser to `http://localhost:8089` and enter the number of users to simulate, spawn rate, host should be set to the Azure App service endpoint for the webapp of `https://pythonwebapp-service.azurewebsites.net/`, and then click Start Swarming.
+This is a screenshot of the Locust entry page:
+![Locust](screenshots/locust.png)
+
+- Once you click start swarming Locust will start to test and you can view the test data.
+![LocustResults](screenshots/locustresults.png)
 
 
 
