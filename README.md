@@ -72,6 +72,24 @@ This screenshot shows a successful prediction made from the deployed Flask app i
 
 ![LogOutput](screenshots/webapplogtail.png)
 
+## Load Test
+
+The application can be load tested using [Locust](https://locust.io/). This will need to be done locally instead of in Azure cloud shell. 
+
+- Clone this repo to your local machine using: `git clone git@github.com:JZerman2018/azure-pipeline-project2.git`
+- Install locust
+  `pip3 install locust`
+  
+- Start the app:
+  `python3 app.py`
+  
+- Start locust:
+  `locust`
+  
+- Next, open your browser to http://localhost:8089 and enter the number of users to simulate, spawn rate, host should be set to localhost:5000, and then click Start Swarming.
+
+
+
 ## Enhancements
 
 In the future these skills can be practiced using Azure Repos and trying another CI/CD service such as [Jenkins](https://www.jenkins.io/) or [CircleCI](https://circleci.com/).
